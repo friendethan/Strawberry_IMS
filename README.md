@@ -23,7 +23,7 @@ Jin Wang, **Ethan Yang**, Pierre Chaurand, Vijaya Raghavan. Visualizing the dist
 * [Tidyverse](https://github.com/tidyverse) for data wrangling and summarizing after peak picking
 
 ## Disclaimer
-This repository contains only the scripts and functions for analyzing the imaging mass spectrometry data, not hte HPLC-UV data also included in the publication. The session info provided below were determined post publication and therefore may not be an accurate representation of the actual R enviornment during data analysis. The scripts provided have been scrapped to remove any personal identifying information.
+This repository contains only the scripts and functions for analyzing the imaging mass spectrometry data, not the HPLC-UV data also included in the publication. The session info provided below were determined post publication and therefore may not be an accurate representation of the actual R enviornment during data analysis. The scripts provided have been scrapped to remove any personal identifying information.
 
 ## License
 Please reference the LICENSE document for details. 
