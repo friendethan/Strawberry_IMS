@@ -13,15 +13,16 @@ require(tidyverse)
 #set working directory
 setwd("directory")
 
-##Step 2: Read imzml and save to RData format for later analysis##
-
+##Step 2: Read imzml and save to RData format for later analysis
 #obtain list of imzml
 data_list=as.matrix(read.table("imzml.txt"))
 
 #read all the data files
 for (i in 1:length(data_list)){
   
-  #Use function to fix IMS coord to catch negative x, y coordinates
+  #Load imzml into Maldiquant to catch any problematic IMS coord to catch negative x, y coordinates
+  #If you are sure that you have no issues with negative coordinates you can useCardinal 
+  #readImzML(data_list[[i]], as="MSImageSet") for Cardinal 2.1 and above or readImzML(data_list[[i]]) for older versions
   setwd("directory for imzml files")
   data=fixIMSCoord(paste(data_list[[i]],".imzml",sep=""))
   
@@ -87,7 +88,7 @@ for (i in 1:length(data_list)){
   stats_all[[i]]=stats
 }
 
-##Step 4: Combine all calculations into one table and save##
+##Step 4: Combine all calculations into one table and save
 #combine into one large table
 stats_all=do.call(rbind, stats_all)
 table_all=do.call(rbind, table_all)
