@@ -1,6 +1,11 @@
 # Analysis of Select Strawberry Metabolites with Imaging Mass Spectrometry 
 This is an archive for the R codes used in the data analysis pipeline to export and analyze the strawberry imaging mass spectrometry data in the reference publication listed below.
 
+## Files
+
+* script.R contains the entire script used for the data analysis
+* functions.R contains the functions written by Ethan Yang and called during the script
+
 ## Reference Publication
 Jin Wang, **Ethan Yang**, Pierre Chaurand, Vijaya Raghavan. Visualizing the distribution of strawberry plant metabolites at different maturity stages by MALDI-TOF imaging mass spectrometry. *Food Chem.* 2020 Dec 10;345:128838. Online ahead of print. [doi:10.1016/j.foodchem.2020.128838](https://pubmed.ncbi.nlm.nih.gov/33341561/)
 
@@ -19,6 +24,9 @@ Jin Wang, **Ethan Yang**, Pierre Chaurand, Vijaya Raghavan. Visualizing the dist
 
 ## Disclaimer
 This repository contains only the scripts and functions for analyzing the imaging mass spectrometry data, not hte HPLC-UV data also included in the publication. The session info provided below were determined post publication and therefore may not be an accurate representation of the actual R enviornment during data analysis. The scripts provided have been scrapped to remove any personal identifying information.
+
+## License
+Please reference the LICENSE document for details. 
 
 ## Session Info
 **RStudio: Version 1.3.959**
