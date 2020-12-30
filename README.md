@@ -1,6 +1,9 @@
 # Analysis of Select Strawberry Metabolites with Imaging Mass Spectrometry 
 This is an archive for the R codes used in the data analysis pipeline to export and analyze the strawberry imaging mass spectrometry data in the reference publication listed below.
 
+## Data Format
+Data was acquired with the Bruker MALDI ultraflextreme using flexControl 3.4 and flexImaging 4.0 and in the condensed .d format.
+
 ## Files
 
 * script.R contains the entire script used for the data analysis
